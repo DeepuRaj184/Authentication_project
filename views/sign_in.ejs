@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/sign_in.css">
+
+<div id="sign_up">
+    <div id="sign-in-fields">
+        <form action="/createsession" method="post">
+            <input type="email" name="email" id="email" placeholder="Email" class="fields" required>
+            <input type="password" name="password" id="password" placeholder="password" class="fields" required>
+            <input type="submit" value="SIGN-IN" id="sign-in" class="fields">
+        </form>
+    </div>
+    <div id="sign-up-fields">
+        <p>Logging In First Time.....?</p>
+        <a href="/user/sign-up"><button id="sign-up">SIGN-UP</button></a>
+    </div>
+    <div id="sign-up-google">
+        <p>Sign In With Google......?</p>
+        <a href="/sign-in/auth/google"><button id="sign-up-google-btn">GOOGLE</button></a>
+    </div>
+</div>

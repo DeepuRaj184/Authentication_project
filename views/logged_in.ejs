@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/logged_in.css">
+
+<div id="sign_up">
+    <div id="sign-in-fields">
+        <h1>Reset Password</h1>
+        <form action="/sign-in/user/reset" method="post">
+            <input type="email" placeholder="email" name="email" required class="fields">
+            <input type="password" placeholder="current password" name="current_password" required class="fields">
+            <input type="password" placeholder="New Password" name="new_password" required class="fields">
+            <input type="submit" value="Set Password" class="fields">
+        </form>
+        <div>
+            <a href="/sign-in/user/sign-out"><button id="sign-out">SIGN OUT</button></a>
+        </div>
+    </div> 
+</div>

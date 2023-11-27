@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+#header{
+    height: 70px;
+    width: inherit;
+    background: black;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.79);
+    display: flex;
+    flex-direction: row;
+}
+#header h1{
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-left: 850px;
+    font-size: 1.5rem;
+    font-family: "Sacramento", cursive;
+    animation: blink 12s infinite;
+}
+@keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+      color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+
+  #header a {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 2rem;
+    color: greenyellow;
+    text-decoration: none;
+  }
